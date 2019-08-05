@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+		
+		<head>
+
+			<title>logica de progamaçaõ</title>
+			<meta charset="utf-8">
+
+		</head>
+
+		<body>
+
+			<script>
+
+				
+
+				function pulaLinha(){
+
+					document.write("<br>");
+					document.write("<br>");
+
+
+				}
+
+				function texto(frase){
+
+					document.write(frase);
+					pulaLinha();
+				}
+
+
+				var vitorias = parseInt(prompt("entre como numeros de vitorias."));
+				var empates = parseInt(prompt ("entre com o numeros de empates."));
+
+				var pontos= (vitorias * 3) + empates;
+
+
+				texto("os pontos do seu time é: " + pontos);
+
+			</script>
+
+		</body>
+
+
+</html>
